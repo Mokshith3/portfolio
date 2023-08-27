@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+#free_space {
+  background-image: linear-gradient(to bottom right, blue, violet);
+  width: 25vw;
+  border-right: 5px solid black;
+}
+
+#pro_pic {
+  height: 300px;
+  position: relative;
+  top: 100px;
+  left: 140px;
+  border-radius: 50%;
+  border: 0.5rem solid black;
+}
+
+.info_side {
+  flex-direction: row-reverse;
+  width: 75vw;
+  padding: 115px 200px;
+  background-color: rgb(26, 25, 25);
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(247, 34, 44);
+}
+
+.hl_text {
+  padding: 25px 0px;
+  font-size: 35px;
+  color: rgb(194, 205, 112);
+}
+
+.text_index {
+  font-size: 20px;
+  
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+#box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(47, 29, 29);
+  margin-top: 28px;
+  margin-left: -60px;
+  padding: 25px;
+  width: 560px;
+  border: 2px solid rgb(82, 66, 66);
+  border-radius: 30px;
+}
+
+.ti {
+  margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    /* font-size: px; */
+  
+}
+
+
+table {
+  margin-top: 13px;
+  border: 2px solid rgb(117, 232, 255);
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid  rgb(117, 232, 255);
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 2px solid  rgb(117, 232, 255);
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
